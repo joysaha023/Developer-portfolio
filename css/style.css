@@ -247,3 +247,73 @@ h6{
     font-weight: 700;
     line-height: 30px;
 }
+
+/* what i do section start */
+.what-box{
+
+}
+.what-box .white-box-title h3{
+    color: var(--heading-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.what-box .white-box-title p{
+    width: 909px;
+    color: var(--text-color);
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.what-box-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.what-box-bottom .what-section-icon{
+    max-width: 267px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 50px;
+    display: block;
+    justify-content: flex-start;
+    align-items: self-start;
+    padding: 30px;
+}
+
+.what-box-bottom .what-section-icon img{
+    padding-bottom: 30px;
+}
+
+.what-box-bottom .what-section-icon h6{
+    color: var(--heading-color);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.what-box-bottom .what-section-icon p{
+    width: 201px;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    
+}
