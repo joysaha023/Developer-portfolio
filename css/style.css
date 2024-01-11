@@ -188,3 +188,62 @@ h6{
     top: 123px;
     right: 10px;
 }
+
+/* About section Start */
+.about-box{
+    background-color: var(--background-color);
+    margin-top: 130px;
+    border-radius: 10px
+}
+
+.about-box .about-title h3{
+    color: var(--heading-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    padding-top: 121px;
+    padding-bottom: 20px;
+}
+
+.about-box .about-title p{
+    width: 827px;
+    color: var(--text-color);
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 30px;
+}
+.about-bottom{
+    padding-bottom: 130px;
+}
+.about-box .about-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.about-bottom .about-name {
+    text-align: center;
+}
+.about-bottom .about-name span{
+    color: var(--text-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.about-bottom .about-name h6{
+    color: var(--subheading-color);
+    font-family:var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
